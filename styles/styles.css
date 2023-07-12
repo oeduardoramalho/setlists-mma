@@ -99,10 +99,6 @@ body {
         width: 435px;
     }
 
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__botao:hover {
         background-color: var(--cor-hover);
     }
@@ -117,10 +113,6 @@ body {
         width: 80%;
     }
 
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__texto {
         font-size: 2.5rem;
     }
@@ -139,10 +131,6 @@ body {
         width: 80%;
     }
 
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__texto {
         font-size: 2.2rem;
     }
