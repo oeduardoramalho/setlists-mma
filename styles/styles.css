@@ -82,6 +82,8 @@ body {
 
 @media (max-width: 1150px) {
     .conteudo {
+        width: auto;
+        max-width: 710px;
         margin: 6% 4%;
     }
 
