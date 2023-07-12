@@ -20,7 +20,6 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-height: 100vh;
     background-color: var(--cor-primaria );
     color: var(--cor-secundaria);
 }
@@ -30,13 +29,17 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    /*
     margin-top: 4%;
     margin-bottom: 10%;
+    */
+    width: 710px;
     gap: 4rem;
 }
 
 .conteudo__logo-principal {
-    width: 28rem;
+    max-width: 50%;
 }
 
 .conteudo__links {
@@ -44,7 +47,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    width: 710px;
+    width: 100%;
 }
 
 .conteudo__links__texto {
