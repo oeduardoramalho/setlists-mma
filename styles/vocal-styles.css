@@ -69,6 +69,7 @@ body {
 
 .conteudo__links__botao__img {
     width: 2.3rem;
+    filter: drop-shadow(0.0625rem 0.0625rem 2rem rgba(0, 0, 0, 0.5));
 }
 
 .conteudo__links__botao:hover {
