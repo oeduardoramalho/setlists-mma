@@ -34,7 +34,8 @@ body {
 }
 
 .conteudo__logo-principal {
-    width: 28rem;
+    padding-top: 8%;
+    width: 20rem;
 }
 
 .conteudo__links {
@@ -81,7 +82,7 @@ body {
     }
 
     .conteudo__links__botao:hover {
-        background-color: var(--cor-hover);
+        background-color: none;
     }
 }
 
@@ -92,15 +93,23 @@ body {
     }
 
     .conteudo__logo-principal {
-        width: 435px;
+        width: 20rem;
     }
 
     .conteudo__links {
         width: auto;
     }
-    
-    .conteudo__links__botao:hover {
-        background-color: var(--cor-hover);
+}
+
+@media (max-width: 785px) {
+    .conteudo__links__texto {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 731px) {
+    .conteudo__links__texto {
+        font-size: 2.5rem;
     }
 }
 
@@ -111,19 +120,11 @@ body {
     }
 
     .conteudo__logo-principal {
-        width: 80%;
+        width: 62%;
     }
 
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__texto {
         font-size: 2.5rem;
-    }
-    
-    .conteudo__links__botao:hover {
-        background-color: var(--cor-hover);
     }
 }
 
@@ -133,14 +134,6 @@ body {
         margin: 10% 10% 15% 10%;
     }
 
-    .conteudo__logo-principal {
-        width: 80%;
-    }
-
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__texto {
         font-size: 2.2rem;
     }
@@ -148,11 +141,15 @@ body {
     .conteudo__links__botao {
         font-size: 1.6rem;
     }
-    
-    .conteudo__links__botao:hover {
-        background-color:var(--cor-hover);
+}
+
+@media (max-width: 440px) {
+    .conteudo__logo-principal {
+        padding-top: 4%;
+        width: 13.7rem;
     }
 }
+
 
 @media (max-width: 380px) {
     .conteudo {
@@ -160,23 +157,11 @@ body {
         margin: 10% 15% 15% 15%;
     }
 
-    .conteudo__logo-principal {
-        width: 80%;
-    }
-
-    .conteudo__links {
-        width: auto;
-    }
-    
     .conteudo__links__texto {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
 
     .conteudo__links__botao {
         font-size: 1.4rem;
-    }
-
-    .conteudo__links__botao:hover {
-        background-color: var(--cor-hover);
     }
 }
