@@ -64,6 +64,7 @@ header, main {
     text-align: center;
     color: var(--cinza);
     margin-bottom: 22px;
+    line-height: 1.1em;
 }
 
 .conteudo__texto {
