@@ -33,6 +33,7 @@
         bottom: 40px;
         left: auto;
         font-size: 1rem;
+        font-weight: 400;
         transition: background-color 0.1s ease-in-out;
     }
 
