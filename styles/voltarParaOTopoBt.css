@@ -4,20 +4,20 @@
     bottom: 25px;
     right: 10px;
     z-index: 99;
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-principal);
     font-size: 0.8rem;
     font-weight: 400;
     border: none;
     outline: none;
-    background-color: var(--cor-terciaria);
-    color: var(--cor-primaria);
+    background-color: var(--vermelho);
+    color: var(--branco);
     cursor: pointer;
     padding: 0.85em;
     border-radius: 8px;
   }
   
 #voltar-topo:active {
-    background-color: rgba(202, 68, 69, 1);
+    background-color: var(--vermelho-esmaecido);
 }
 
 
@@ -37,7 +37,7 @@
     }
 
     #voltar-topo:hover {
-        background-color: rgba(202, 68, 69, 1);
+        background-color: var(--vermelho-esmaecido);
         transition: background-color 0.1s ease-in-out;
     }
 }
