@@ -25,7 +25,7 @@
     align-items: center;
     background-color: var(--cor-fundo-rodape);
     padding: 15px;
-    width: 100vw;
+    width: calc(100vw - 30px);
     gap: 13px;
 }
 
@@ -51,6 +51,7 @@
 @media screen and (min-width: 768px) {
     .rodape__conteudo {
         padding: 18px 18px 16px 18px;
+        width: calc(100vw - 36px);
     }
         
     .rodape__logo {
@@ -62,6 +63,7 @@
 @media screen and (min-width: 1024px) {
     .rodape__conteudo {
         padding: 20px 20px 17px 20px;
+        width: calc(100vw - 40px);
     }
     
     .rodape__logo {
