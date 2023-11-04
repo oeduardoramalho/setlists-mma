@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 212px;
+    max-width: 185px;
 }
 
 .corpo__opcoes-link {
@@ -56,6 +56,10 @@
 
     .corpo__opcoes {
         margin-bottom: 42.5px;
+    }
+
+    .corpo__opcoes-lista {
+        max-width: 212px;
     }
 }
 
